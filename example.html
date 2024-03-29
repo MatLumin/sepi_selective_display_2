@@ -1,0 +1,67 @@
+<script type="text/javascript" src="./sepi_selective_display.js"></script>
+
+
+<button onclick="ssd.show_this_flag_and_hide_others('SEPI')">ABOUT SEPI</button>
+<button onclick="ssd.show_this_flag_and_hide_others('DANI')">ABOUT DANI</button>
+<button onclick="ssd.show_this_flag_and_hide_others('MEHDI')">ABOUT MEHDI</button>
+<button onclick="ssd.show_this_flag_and_hide_others('SAJAD')">ABOUT sajad</button>
+
+<h1 SEPI>
+	THIS IS SEPI
+</h1>
+
+<h2 SEPI> 
+	SEPI USWES VIM 
+</h2>
+
+<h2 SEPI>
+	SEPI KNOWS PYTHON
+</h2>
+
+
+
+
+<h1 DANI>
+	Dani
+</h1>
+
+<h2 DANI> 
+	Dani 
+</h2>
+
+<h2 DANI>
+	Dani 
+</h2>
+
+
+
+
+<h1 MEHDI>
+	...
+</h1>
+
+<h2 MEHDI> 
+	... 
+</h2>
+
+<h2 MEHDI>
+	... 
+</h2>
+
+
+
+<h1 SAJAD>
+ 	this sajad
+</h1>
+
+
+
+
+
+<script type="text/javascript">
+let flags = ["SEPI", "DANI", "MEHDI", "SAJAD"];
+let ssd = new SepiSelectiveDisplay(flags);
+ssd.hide_all_flags();
+
+
+</script>
